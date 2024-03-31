@@ -1,10 +1,10 @@
 const { convertImage, verifyImage } = require("./index");
 
-verifyImage("512-yellow.png").then((result) => {
+verifyImage("assets/not-512.png").then((result) => {
   console.log(result);
 });
 
-convertImage("512-yellow.png")
+convertImage("assets/not-512.png")
   .then((outputPath) => {
     console.log(`Converted image saved as ${outputPath}`);
   })
