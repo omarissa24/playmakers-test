@@ -4,6 +4,10 @@
 
 This Node.js script utilizes the `canvas` library to analyze and convert images based on a defined "happy" color palette. It checks if an image predominantly consists of certain cheerful colors and applies a circular mask to the image.
 
+## Running the tests
+
+- run `node test.js` in terminal on any file in the assets folder to test the program.
+
 ## Dependencies
 
 - [canvas](https://www.npmjs.com/package/canvas): A Cairo backed Canvas implementation for Node.js.
